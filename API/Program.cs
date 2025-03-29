@@ -28,10 +28,11 @@ options.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://varunbr.github.io
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseDefaultFiles();
-app.UseStaticFiles();
+//app.UseStaticFiles();
 app.MapControllers();
 app.MapFallbackToController("Index", "Fallback");
-
+app.UseSwagger();
+app.UseSwaggerUI();
 //Seed
 using var scope = app.Services.CreateScope();
 var services = scope.ServiceProvider;
