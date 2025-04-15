@@ -12,6 +12,8 @@ namespace API.Data
         IStoreRepository StoreRepository { get; }
         ITrackRepository TrackRepository { get; }
         IRoleRepository RoleRepository { get; }
+        IProductFavoriteRepository ProductFavoriteRepository { get; }
+
         Task<bool> SaveChanges();
         bool HasChanges();
     }

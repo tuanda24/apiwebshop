@@ -21,6 +21,7 @@ namespace API.Data
         public IStoreRepository StoreRepository => new StoreRepository(_context, _mapper, _photoService);
         public ITrackRepository TrackRepository => new TrackRepository(_context, _mapper, _photoService);
         public IRoleRepository RoleRepository => new RoleRepository(_context, _mapper, _photoService, _userManager);
+        public IProductFavoriteRepository ProductFavoriteRepository => new ProductFavoriteRepository(_context, _mapper, _photoService, _userManager);
 
         public UnitOfWork(DataContext dataContext, IMapper mapper, IPhotoService photoService, UserManager<User> userManager)
         {

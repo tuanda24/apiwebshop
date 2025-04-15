@@ -3,6 +3,7 @@ using API.Data;
 using API.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Microsoft.IdentityModel.Tokens;
 
 namespace API.Controllers
 {
@@ -38,5 +39,36 @@ namespace API.Controllers
             var result = await _uow.SearchRepository.GetHomePage();
             return Ok(result);
         }
+        [HttpPost("favorite/{id}")]
+        public async Task<IActionResult> AddFavorite(int id)
+        {
+            var userId = HttpContext.User.ToString();
+            if (string.IsNullOrEmpty(userId)) return Unauthorized();
+
+            await _uow.ProductFavoriteRepository.AddFavorite(id, userId);
+            return Ok(new { success = true });
+        }
+
+
+        [HttpDelete("favorite/{id}")]
+        public async Task<IActionResult> RemoveFavorite(int id)
+        {
+            var userId = HttpContext.User.ToString();
+            if (string.IsNullOrEmpty(userId)) return Unauthorized();
+
+            await _uow.ProductFavoriteRepository.RemoveFavorite(id, userId);
+            return Ok(new { success = true });
+        }
+
+        [HttpGet("favorites")]
+        public async Task<IActionResult> GetFavorites()
+        {
+            var userId = HttpContext.User.ToString();
+            if (string.IsNullOrEmpty(userId)) return Unauthorized();
+
+            var favorites = await _uow.ProductFavoriteRepository.GetUserFavorites(userId);
+            return Ok(favorites);
+        }
+
     }
 }

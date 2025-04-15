@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using API.Entities;
+using System;
+using System.Collections.Generic;
 
 namespace API.DTOs
 {
@@ -24,5 +26,14 @@ namespace API.DTOs
     {
         public string Category { get; set; }
         public List<ProductMiniDto> Products { get; set; } = new();
+    }
+    public class ProductFavorite
+    {
+        public int Id { get; set; }
+        public string UserId { get; set; } // assuming using Identity
+        public int ProductId { get; set; }
+        public DateTime FavoritedAt { get; set; }
+        public Product Product { get; set; }
+        public User User { get; set; } // assuming ApplicationUser : IdentityUser
     }
 }

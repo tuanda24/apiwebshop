@@ -25,6 +25,7 @@ namespace API.Data
         public DbSet<PayOption> PayOptions { get; set; }
         public DbSet<Photo> Photos { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<ProductFavorite> ProductFavorite { get; set; }
         public DbSet<ProductTag> ProductTags { get; set; }
         public DbSet<ProductView> ProductViews { get; set; }
         public DbSet<Property> Properties { get; set; }

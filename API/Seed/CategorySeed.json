@@ -19,7 +19,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "5000,10000,15000,20000,25000,30000,40000,50000,100000,150000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -86,7 +86,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "500,700,1000,1500,2000,3000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -132,7 +132,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "500,700,1000,1500,2000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Capacity",
@@ -168,7 +168,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "500,700,1000,1500,2000,3000,5000,10000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -202,7 +202,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "20000,30000,40000,50000,60000,70000,80000,100000,150000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -271,7 +271,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "20000,30000,50000,70000,100000,150000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -311,7 +311,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "500,1000,1500,2000,3000,5000,7000,10000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -358,7 +358,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "10000,15000,20000,25000,30000,35000,40000,50000,60000,80000,100000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -434,7 +434,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "10000,15000,20000,25000,30000,35000,40000,45000,50000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -476,7 +476,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "25000,30000,35000,40000,45000,50000,55000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -545,7 +545,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "10000,15000,20000,25000,30000,35000,40000,50000,60000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -596,7 +596,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "5000,7500,10000,12500",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -635,7 +635,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "500,1000,2000,5000,10000,15000,20000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
@@ -662,7 +662,7 @@
                         "Type": "Integer",
                         "Filter": false,
                         "Values": "500,1000,2000,5000,10000,15000,20000",
-                        "Unit": "₹"
+                        "Unit": "VNĐ"
                     },
                     {
                         "Name": "Brand",
